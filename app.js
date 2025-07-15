@@ -40,25 +40,34 @@ alert(`Boas-vindas ${Nome}`);
 //questão 1
 let contador = 1;
 while (contador <= 9) {
+    console.log(contador);
     contador += 1;
 }
 
 //questão 2
 let numero = 10;
 while (numero > 0) {
+    console.log(numero);
     numero -= 1;
 }
 
 //questão 3
-let numeroDigitado;
-let contagem;
+let numeroMaximo = prompt("Digite um número:");
+let contagem = Number(numeroMaximo);
 
-while (contagem > 0) {
-    numeroDigitado = prompt("Digite um numero")
-   contagem =  Number(numeroDigitado);
+while (contagem >= 0) {
+    console.log(contagem);
+    contagem--;
+}
 
-   if (contagem > 0)
-    contagem -= 1;
+//questão 4
+let NuumeroDigitado = prompt("Digite um numero")
+let Numero = Number(numeroDigitado);
+let Contable =0;
+
+while (Contable <= 0) {
+        Contable++; 
+
 }
 
                                                     

@@ -34,3 +34,31 @@ alert(`Seu saldo é de R$${saldoConta}.`);
 //questão 5
 let Nome = prompt("Qual o seu nome?");
 alert(`Boas-vindas ${Nome}`);
+
+//Desafios utilizando While.
+
+//questão 1
+let contador = 1;
+while (contador <= 9) {
+    contador += 1;
+}
+
+//questão 2
+let numero = 10;
+while (numero > 0) {
+    numero -= 1;
+}
+
+//questão 3
+let numeroDigitado;
+let contagem;
+
+while (contagem > 0) {
+    numeroDigitado = prompt("Digite um numero")
+   contagem =  Number(numeroDigitado);
+
+   if (contagem > 0)
+    contagem -= 1;
+}
+
+                                                    
